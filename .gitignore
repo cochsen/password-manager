@@ -1,0 +1,6 @@
+node_modules/
+pwmanager.zip
+npm-debug.log
+persist/
+example-args.js
+example-encryption.js
