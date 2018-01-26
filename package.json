@@ -1,6 +1,6 @@
 {
   "name": "password-manager",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Manage your passwords locally",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,9 @@
   "author": "Chris Ochsenreither",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.13.0",
     "crypto-js": "^3.1.6",
-    "node-persist": "0.0.6",
-    "yargs": "^3.15.0"
+    "inquirer": "^5.0.1",
+    "mongoose": "^5.0.1"
   }
 }
